@@ -44,25 +44,26 @@ h1,
 h2 {
   font-weight: 300;
   margin-top: 0;
-
 }
 
 .small{
   font-size: 16px;
   margin-top: 0;
+  color: #99d930;
 }
 
 .title1 {
   font-size: 80px;
 }
 
-.title1 {
+.title2 {
   font-size: 60px;
 }
 
 .title1, .title2 {
   font-weight: bold;
   display: block;
+  color: #99d930;
 }
 
 /* Link */
@@ -114,4 +115,10 @@ header{
 .btn:focus {
   background-color: #252525;
   color: #fff;
+}
+
+.inverse .btn:hover,
+.inverse .btn:focus {
+  background-color: #fff;
+  color: #252525;
 }
