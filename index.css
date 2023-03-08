@@ -1,3 +1,4 @@
+
 body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
@@ -21,24 +22,34 @@ img {
 
 h1 {
   font-size: 60px;
+
 }
 
 h2{
   font-size: 42px;
+  border-top: 1px solid #c4c4c4;
+  border-bottom: 1px solid #c4c4c4;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  
 }
 
 h3{
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 0;
 }
 
 h1, 
 h2 {
   font-weight: 300;
+  margin-top: 0;
+
 }
 
 .small{
   font-size: 16px;
+  margin-top: 0;
 }
 
 .title1 {
@@ -55,6 +66,9 @@ h2 {
 }
 
 /* Link */
+p {
+  margin-bottom: 0;
+}
 
 a{
   color: #99d930;
@@ -83,6 +97,21 @@ header{
 }
 
 .inverse{
+  background-color: #252525;
+  color: #fff;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #99d930;
+  text-decoration: none;
+  margin-top: 25px;
+  padding: 10px 25px;
+  color: #252525;
+}
+
+.btn:hover,
+.btn:focus {
   background-color: #252525;
   color: #fff;
 }
