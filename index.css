@@ -1,7 +1,9 @@
 body {
   text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 21px;
+  font-weight: 300;
 }
-
 
 .main-container{
   margin: 0 auto;
@@ -12,3 +14,51 @@ img {
   width: 100px;
 }
 
+/* Typography */
+
+h1 {
+  font-size: 60px;
+}
+
+h2{
+  font-size: 42px;
+}
+
+h3{
+  font-size: 36px;
+  font-weight: 900;
+}
+
+h1, 
+h2 {
+  font-weight: 300;
+}
+
+.small{
+  font-size: 16px;
+}
+
+.title1 {
+  font-size: 80px;
+}
+
+.title1 {
+  font-size: 60px;
+}
+
+.title1, .title2 {
+  font-weight: bold;
+  display: block;
+}
+
+/* Link */
+
+a{
+  color: #99d930;
+  font-weight: 900;
+}
+
+a:hover,
+a:focus {
+  color: #131313;
+}
